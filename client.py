@@ -130,7 +130,7 @@ class KeyboardNetworkClient:
 
 if __name__ == "__main__":
     SERVER_IP = "127.0.0.1"
-    SERVER_PORT = 8080
+    SERVER_PORT = 12345
     client = KeyboardNetworkClient(SERVER_IP, SERVER_PORT)
 
     print(f"Connecting to {SERVER_IP}:{SERVER_PORT}...")
